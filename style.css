@@ -1,22 +1,85 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.logo {
+    height: auto;
+    width: auto;
+    padding-left: 55px;
+    display: flex;
+    background-color: #2a2a2a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imagem {
+    height: 100px;
+    width: auto;
+}
+
+.controle {
+    margin-top: 35px;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+}
+
+.controle3 {
+    margin-left: 253px;
+    margin-top: 130px;
+    width: 650px;
+    padding: 100px;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 8px 8px 8px white;
+
+}
+
+#cartao {
+    width: 230px;
+    border-radius: 9px;
+}
+
+button {
+    margin-left: 77px;
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(155, 155, 155);
+    color: black;
+}
+
 body {
     font-family: Arial, sans-serif;
-  }
-  
-  h1 {
+    background-color: rgb(18, 18, 18);
+}
+
+h1 {
     color: #333;
-  }
-  
-  input, button {
+}
+
+input,
+button {
     padding: 10px;
     font-size: 16px;
-  }
-  
-  #acesso {
-    margin-top: 20px;
+}
+
+#acesso {
+    margin-top: 30px;
     font-size: 20px;
-  }
+    margin-left: 3px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgb(218, 216, 216);
+    width: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
