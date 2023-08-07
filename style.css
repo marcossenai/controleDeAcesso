@@ -3,44 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-.nome{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: rgb(56, 144, 195);
-    height: 75px;
-}
-
-#controle{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-}
-
-.local{
-    height: 200px;
-    background-color: rgb(11, 63, 101);
-    width: 100%;
-    display: flex;
-    
-   
-    
-    justify-content: center;
-    align-items: center;
-}
-
-.insira{
-    font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-}
-
-#numero{
-    height: 50px;
-    margin-left: 60px;
-    width: 200px;
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #acesso {
+    margin-top: 20px;
     font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 2px solid black;
-    border-radius: 12px;
-}
+  }
